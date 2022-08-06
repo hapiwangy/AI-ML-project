@@ -125,3 +125,6 @@ for index in range(number):
     ax.get_yaxis().set_visible(False)
 plt.show()
 # %%
+model.save("ae.tf")
+
+# %%
